@@ -37,6 +37,9 @@
 `**Աշխարհ**` սրա փոխարեն սա․ `<b>Աշխարհ</b>`։
 - Անհրաժեշտ է նյութ գրելիս պահպանել ուղղագրության ճշգրտությունը եւ հակիրճությունը։
 
+### <b>Օգտակար հղումներ</b>
+- [Ստեղնաշարային կոմբինացիաների ինքուսույց](https://github.com/hanumanum/unmuk)
+
 -----------------------
 This repository is a central place to see how to quickly do common tasks and programming requirements in different programming languages and environments.
 
