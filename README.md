@@ -56,6 +56,7 @@ pull request֊ներ,
 # Երախտագիտության խոսք
 
 [Edgar Aroutiounian](https://twitter.com/edgararout)
+[Robert Adamian](https://www.facebook.com/relativistic.rob)
 
 -----------------------
 
