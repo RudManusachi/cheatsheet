@@ -1,4 +1,4 @@
-Machine Learning Շպարգալկա
+Machine Learning Հուշաթերթիկ
 ----------------
 
 # NumPy: Numerical Python
