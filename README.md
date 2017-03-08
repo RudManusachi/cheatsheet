@@ -49,16 +49,11 @@ pull request֊ներ,
 `**Աշխարհ**` սրա փոխարեն սա․ `<b>Աշխարհ</b>`։
 - Անհրաժեշտ է նյութ գրելիս պահպանել ուղղագրության ճշգրտությունը եւ հակիրճությունը։
 
+[Օգտակար հղումներ](./useful-links.md)
 
-# Երախտագիտության խոսք
+[Երախտագիտության խոսք](./ACKNOWLEDGMENTS.md)
 
-[Edgar Aroutiounian](https://twitter.com/edgararout) 🇦🇲
-
-[Robert Adamian](https://www.facebook.com/relativistic.rob)
-
-[Michael Zakaryan](https://www.facebook.com/michael.zakaryan)
-
------------------------
+------------------------
 
 This repository is a central place to see how to quickly do common
 tasks and programming requirements in different programming languages
