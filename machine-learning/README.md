@@ -36,10 +36,24 @@ numpy.ones(10)
 ```python
 numpy.array([1, 2, 3])
 ```
+պատահական թվերով a ից b միջակայքից, # չափ
+
+```python
+a=1
+b=5
+numpy.random.uniform(a, b, 5)
+```
 
 #### երկու չափանի
 ```python
 numpy.array([[1, 2], [3, 4]])
+```
+պատահական թվերով a ից b միջակայքից, [#տող, #սյուն ]
+
+```python
+a=1
+b=5
+numpy.random.uniform(a, b, [2,4])
 ```
 
 ### Հատկություններ
@@ -48,3 +62,24 @@ numpy.array([[1, 2], [3, 4]])
 a = numpy.array([[1, 2], [3, 4]])
 a.size
 ```
+####մատրից տեղափոխել (Transpose)
+'''python
+A= numpy.random.uniform(0,100,[2, 4])
+A.T
+'''
+
+#### Scalar արտադրանքը
+վեկտորները պէտքէ իրար համապատասխան չափ ունենան
+'''python
+a= numpy.random.uniform(0, 100, 5)
+b= numpy.random.uniform(0, 100, 5)
+numpy.inner(a, b)
+'''
+
+####մատրից բազմապատկում
+մատրիցները պէտքէ բավարարեն մատրից բազմապատկման չափսերի կանոնը: nxm * mxr = nxr
+'''python
+A= numpy.random.uniform(0,100,[5, 2])
+B= numpy.random.uniform(0,100,[2, 4])
+numpy.matmul(A, B)
+'''
