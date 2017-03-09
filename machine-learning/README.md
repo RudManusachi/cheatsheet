@@ -63,23 +63,23 @@ a = numpy.array([[1, 2], [3, 4]])
 a.size
 ```
 ####մատրից տեղափոխել (Transpose)
-'''python
+```python
 A= numpy.random.uniform(0,100,[2, 4])
 A.T
-'''
+```
 
 #### Scalar արտադրանքը
 վեկտորները պէտքէ իրար համապատասխան չափ ունենան
-'''python
+```python
 a= numpy.random.uniform(0, 100, 5)
 b= numpy.random.uniform(0, 100, 5)
 numpy.inner(a, b)
-'''
+```
 
 ####մատրից բազմապատկում
 մատրիցները պէտքէ բավարարեն մատրից բազմապատկման չափսերի կանոնը: nxm * mxr = nxr
-'''python
+```python
 A= numpy.random.uniform(0,100,[5, 2])
 B= numpy.random.uniform(0,100,[2, 4])
 numpy.matmul(A, B)
-'''
+```
