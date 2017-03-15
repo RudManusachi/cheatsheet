@@ -69,4 +69,45 @@ i++
 | <=  |  փոքր է կամ հավասար.  |
 | ?  | պայմանական օպերատոր։ Օգտագործվում է, երբ կա պայման և այդ պայմանին բավարարող երկու հնարավոր արժեք։ Օրինակ. var status = (age >= 18) ? 'adult' : 'minor'; status փոփոխականը կստանա 'adult' արժեքը եթե տարիքը մեծ կամ հավասր է 18ի, այլապես այն ընդունում է ՛minor' արժեքը.  |
 
+---
+# JavaScript Functions
+
+There are many ways to define and call functions in JavaScript. Let's review them.
+
+1. Simplest way of defining a Function
+```javascript
+function speaker() {
+    console.log('Hello Wrold!');
+}
+
+speaker();
+```
+Here we define a function `speaker()` and then call it.
+
+2. Assigning Function to a variable. In JavaScript Functions have data so we can assign them to a variable. Here is one way to do it:
+```javascript
+const speak_again_var = function speak_again_func(){
+    console.log('Hello again');
+}
+speak_again_var();
+```
+Here we give our function a name - `speak_again_func()` and assign it to a variable named `speak_again_var`. We call our function using *variable* name. If we try to call using function name `speak_again_func()` we will see that it is undefined.
+
+3. Anonymous Functions. As we saw previously giving a name to a function is not very useful, so we can omit it, like this:
+```javascript
+const speak_again_var2 = function (){
+    console.log('Hello again Two');
+}
+speak_again_var2();
+```
+This is called an anonymous function.
+
+4. Lambdas.
+```javascript
+const new_cool_f = (a, b) => {
+    return a + b;
+}
+console.log(new_cool_f(4, 5));
+```
+Here we omit the word `function` and use parentheses within which we indicate that our function takes two arguments. This style is called Lambda Function.
 
