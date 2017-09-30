@@ -37,7 +37,7 @@ class Box extends Component {
     return (
       <div onClick={this.handler}>
         Hello World, click status? {this.state.did_click}
-	  </div>
+      </div>
     )
   }
 };
