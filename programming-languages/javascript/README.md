@@ -15,8 +15,8 @@ Jacascript-ում և այլ ծրագրավորման լեզուներում գո
 ```javascript
 let number = 0;
 for(i = 0; i < 50; i++){
-   number ++
-   console.log(i);
+  number ++
+  console.log(i);
 };
 ``` 	
 Տրված օրինակում սահմանում ենք փոփոխական number, այնուհետև սահմանում ենք ցիկլը i-ի սկզբնական արժեքը 0 է, արժեքների տիրույթը մինչև 50ը և գործողությունը փոփոխականի հետ(i++, որը նույնն է ինչ i+1) ստացված արժեքն էլ ամեն անգամ օգտագործվելու է հաջորդ ցիկլի ընթացքում։ Շղթայի հիմնական գործողությունն է տպել console-ում iի արժեքը: Երբ աշխատեցնենք այս կոդը console-ում կտպվեն 1-50 թվերը հերթականությամբ։ 
@@ -26,9 +26,9 @@ for(i = 0; i < 50; i++){
 ```javascript
 var i = 0 
 while (i <= 10) {
-var result = i*2; 
-console.log(i+" times 2 is equal "+result); 
-i++ ; 
+  var result = i*2; 
+  console.log(i+" times 2 is equal "+result); 
+  i++; 
 }
 
 
@@ -42,10 +42,9 @@ i++ ;
 ```javascript
 var i = 0; 
 do {
-var half = i/2 ; 
-console.log("the half of "+i+ " is "+half); 
-i++
-
+  var half = i/2 ; 
+  console.log("the half of "+i+ " is "+half); 
+  i++;
 } while (i<10)
 
 ```
@@ -77,7 +76,7 @@ There are many ways to define and call functions in JavaScript. Let's review the
 1. Simplest way of defining a Function
 ```javascript
 function speaker() {
-    console.log('Hello Wrold!');
+  console.log('Hello Wrold!');
 }
 
 speaker();
@@ -87,7 +86,7 @@ Here we define a function `speaker()` and then call it.
 2. Assigning Function to a variable. In JavaScript Functions have data so we can assign them to a variable. Here is one way to do it:
 ```javascript
 const speak_again_var = function speak_again_func(){
-    console.log('Hello again');
+  console.log('Hello again');
 }
 speak_again_var();
 ```
@@ -96,7 +95,7 @@ Here we give our function a name - `speak_again_func()` and assign it to a varia
 3. Anonymous Functions. As we saw previously giving a name to a function is not very useful, so we can omit it, like this:
 ```javascript
 const speak_again_var2 = function (){
-    console.log('Hello again Two');
+  console.log('Hello again Two');
 }
 speak_again_var2();
 ```
@@ -105,9 +104,8 @@ This is called an anonymous function.
 4. Lambdas.
 ```javascript
 const new_cool_f = (a, b) => {
-    return a + b;
+  return a + b;
 }
 console.log(new_cool_f(4, 5));
 ```
 Here we omit the word `function` and use parentheses within which we indicate that our function takes two arguments. This style is called Lambda Function.
-
